@@ -1,0 +1,7 @@
+.container-fluid {
+    margin: 0% !important;
+    padding: 0% !important;
+}
+.col-12 {
+    padding: inherit;
+}
