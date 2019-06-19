@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
  /* width */
 ::-webkit-scrollbar {
     width: 7px;
@@ -20,3 +21,7 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #e8472e; 
   }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(9, 9, 9, 0.94) !important;
+}
