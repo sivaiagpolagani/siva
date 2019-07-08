@@ -11,6 +11,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   }
+navbarOpen = false;
 
+toggleNavbar()
+{
+  this.navbarOpen = !this.navbarOpen;
 }
-export class ToolbarMultirowExample {}
+}

@@ -1,0 +1,17 @@
+a.nav-link {
+    
+    font-size: 0.975rem;
+    text-transform: uppercase;
+    color: #555;
+    background-color: transparent;
+    font-weight: 600;
+    position: relative;
+    margin-left:3rem;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dc2724 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(217, 41, 35, 0.47) !important;
+}
