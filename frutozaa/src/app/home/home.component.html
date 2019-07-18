@@ -27,10 +27,16 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
           </li>
 
           <!-- Dropdown -->
@@ -66,16 +72,16 @@
 
 <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
   <ng-template ngbSlide>
-    <img src="../../assets/slide2.jpg" alt="Random first slide">
-    <div class="carousel-caption rollIn">
-      <h1>10 seconds between slides...</h1>
+    <img src="../../assets/slide2.jpg" alt="Random first slide" class="wow slideInRight">
+    <div class="carousel-caption">
+      <h1 class="wow fadeInUp" data-wow-delay="0.7s">10 seconds between slides...</h1>
       <p>This carousel uses customized default values.</p>
     </div>
   </ng-template>
   <ng-template ngbSlide>
-    <img src="../../assets/slide1.jpg" alt="Random second slide">
-    <div class="carousel-caption rollIn">
-      <h1>No mouse events...</h1>
+    <img src="../../assets/slide1.jpg" alt="Random second slide" class="wow slideInRight">
+    <div class="carousel-caption">
+      <h1 class="wow fadeInUp" data-wow-delay="0.7s">No mouse events...</h1>
       <p>This carousel doesn't pause or resume on mouse events</p>
     </div>
   </ng-template>
